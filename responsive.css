@@ -65,6 +65,21 @@
     .elemText {
     padding:4px 20px;
     }
+
+
+    /*  Page 2 */
+    .page2 h1{
+      font-size: 3.4vh;
+   
+    }
+    .container{
+      grid-template-rows: repeat(3, 150px);
+      grid-template-columns: repeat(3, 100px);
+    }
+    .box{
+      height: auto;
+      width: auto; 
+    }
   }
   
   /* Tablet Responsive Styles */
@@ -103,6 +118,14 @@
     #content button {
       padding: 10px 16px;
       font-size: 15px;
+    }
+    .container{
+      grid-template-rows: repeat(3, 150px);
+      grid-template-columns: repeat(3, 100px);
+    }
+    .box{
+      height: auto;
+      width: auto; 
     }
 
   }
